@@ -164,7 +164,7 @@ namespace Capusan_DanielaMaria_Lab5
             action = ActionState.Nothing;
             btnNew.IsEnabled = true;
             btnEdit.IsEnabled = true;
-            btnEdit.IsEnabled = true;
+            btnDelete.IsEnabled = true;
             btnSave.IsEnabled = false;
             btnCancel.IsEnabled = false;
             lstPhones.IsEnabled = true;
@@ -172,6 +172,8 @@ namespace Capusan_DanielaMaria_Lab5
             btnNext.IsEnabled = true;
             txtPhoneNumber.IsEnabled = false;
             txtSubscriber.IsEnabled = false;
+            txtContractValue.IsEnabled = false;
+            txtContractDate.IsEnabled = false;
             txtPhoneNumber.SetBinding(TextBox.TextProperty, txtPhoneNumberBinding);
             txtSubscriber.SetBinding(TextBox.TextProperty, txtSubscriberBinding);
             txtContractValue.SetBinding(TextBox.TextProperty, txtContractValueBinding);
