@@ -281,9 +281,9 @@ namespace Capusan_DanielaMaria_Lab5
                 txtContractDate.IsEnabled = false;
                 txtPhoneNumber.SetBinding(TextBox.TextProperty, txtPhoneNumberBinding);
                 txtSubscriber.SetBinding(TextBox.TextProperty, txtSubscriberBinding);
-                txtContractDate.SetBinding(TextBox.TextProperty, txtContractValueBinding);
+                txtContractValue.SetBinding(TextBox.TextProperty, txtContractValueBinding);
                 txtContractDate.SetBinding(TextBox.TextProperty, txtContractDateBinding);
-            }
+                }
         }
 
         private void btnPrevious_Click(object sender, RoutedEventArgs e)
